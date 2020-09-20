@@ -44,7 +44,8 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[DevSquad](https://devsquad.com)**
 - **[OP.GG](https://op.gg)**
 
-- [User10](https://user10.com)
+
+- [Admin-Voyager]https://voyager-docs.devdojo.com/getting-started/installation
 
 ## Contributing
 

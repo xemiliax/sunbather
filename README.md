@@ -45,7 +45,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[OP.GG](https://op.gg)**
 
 
-- [Admin-Voyager]https://voyager-docs.devdojo.com/getting-started/installation
+- **[Admin-Voyager](https://voyager-docs.devdojo.com/getting-started/installation)**
 
 ## Contributing
 

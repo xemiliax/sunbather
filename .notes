@@ -1,0 +1,16 @@
+Login-acesso DB
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=vertigo
+DB_USERNAME=niemand
+DB_PASSWORD=deafheaven18
+
+#
+LOGIN_VOYAGER:
+band.niemand@gmail.com
+password: deafheaven18
+
+admin@admin.com
+password

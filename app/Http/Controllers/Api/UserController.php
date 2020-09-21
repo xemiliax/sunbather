@@ -19,7 +19,7 @@ class UserController extends Controller
            return response($user, 200)->header('Content-Type', 'application/json');
        } catch (\Exception $e) {
            $result = [
-               'code' => '11000',
+               'code' => '7000',
                'message' => 'Não foi possível completar a solicitação',
                'error' => $e->getMessage(),
            ];
@@ -33,7 +33,6 @@ class UserController extends Controller
     $user->name = $userLogged->name;
     $user->email = $userLogged->email;
     $user->settings = $userLogged->settings;
-    $user->birthdate = $userLogged->birthdate;
     $user->city_id = $userLogged->city_id;
     
     if ($userLogged -> city_id)

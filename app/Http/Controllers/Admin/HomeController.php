@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Auth;
-use Carbon\Carbon;
 use DB;
 use Illuminate\Http\Request;
 use Log;
@@ -39,18 +38,9 @@ class HomeController extends Controller
            die;
        }
 
-       $current = Carbon::now();
-
        $userCount = \App\User::select(DB::raw('*'))->whereRaw('Date(created_at) = CURDATE()')->count();
       
-       $currentDate = \Carbon\Carbon::now();
-       $filter = $request->ptotals ?? 1;
-       $dateFilter = '';
-       if($filter != 'm'){
-           $dateFilter = $currentDate->subMonths($request->ptotals)->format('Y-m-d');
-       }
-
-        return view('admin.home.index', compact(
+             return view('admin.home.index', compact(
         'userCount'
  ));
       }

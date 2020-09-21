@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::group(["domain" => env('APP_URL', 'http://localhost:8000')], function () {
+Route::group(["domain" => env('APP_URL', 'http://localhost:8000/admin')], function () {
 
     Route::get('/', 'Api\HomeController@index');
 

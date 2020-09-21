@@ -22,8 +22,8 @@ Route::group(["domain" => env('APP_URL', 'http://localhost:8000/admin')], functi
 Route::group(['prefix' => 'v2', 'middleware' => ['auth:api']], function () {
     Route::get('/user', 'Api\UserController@get');
 
-    Route::get('/partner/orders', 'Api\OrdersController@getOrders');
-    Route::put('/partner/order/{orderId}', 'Api\OrdersController@cancelOrder');
+    Route::get('/orders', 'Api\OrdersController@getOrders');
+    Route::put('/order/{orderId}', 'Api\OrdersController@cancelOrder');
     
     /*
     pedidos (GET, POST)

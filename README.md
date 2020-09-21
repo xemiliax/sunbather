@@ -67,3 +67,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 Realizei esse projeto em PHP LARAVEL, com auxilio do VOYAGER, um 'admin' que auxilia no controle de usuários, pagamentos, cidades... Dados num geral. Ele tem contato direto com nosso banco de dados e código, tem uma interface amigavel e é uma boa ferramenta de trabalho. O banco de dados usado é o Mysql/Apache. 
 
+Nessa tela está a exibição dos pedidos de clientes
+![pedidos-clientes](https://user-images.githubusercontent.com/50882123/93828258-4cd01300-fc41-11ea-8dec-37f749c0669a.png)
+
+Nesta Cadastro de usuários. 
+  ![cadastro-user](https://user-images.githubusercontent.com/50882123/93828243-46419b80-fc41-11ea-8606-5eebf32ecfec.png) 
+
+E nessa está o Menu simplificado com as ramificações para cada tela. 
+![menu-area-clients](https://user-images.githubusercontent.com/50882123/93828251-4b064f80-fc41-11ea-94b7-01a35164c646.png)

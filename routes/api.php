@@ -14,21 +14,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::group(["domain" => env('APP_URL', 'http://localhost:8000')], function () {
+Route::group(["domain" => env('APP_URL', 'http://localhost:8000/admin')], function () {
 
     Route::get('/', 'Api\HomeController@index');
 
 
 Route::group(['prefix' => 'v2', 'middleware' => ['auth:api']], function () {
     Route::get('/user', 'Api\UserController@get');
-    
-    /* Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-    });
 
-    /pedidos (GET, POST)
-    /pedidos/:id (GET, PUT, DELETE)
-   //clientes (GET, POST)
-    /clientes/:id (GET, PUT, DELETE) */
+    Route::get('/orders', 'Api\OrdersController@getOrders');
+    Route::put('/order/{orderId}', 'Api\OrdersController@cancelOrder');
+    
+    /*
+    pedidos (GET, POST)
+    pedidos/:id (GET, PUT, DELETE)
+    clientes (GET, POST)
+    clientes/:id (GET, PUT, DELETE) */
 }); 
 }); 

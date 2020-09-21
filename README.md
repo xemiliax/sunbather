@@ -44,7 +44,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[DevSquad](https://devsquad.com)**
 - **[OP.GG](https://op.gg)**
 
-
+- **[CloudFlare](https://cdnjs.cloudflare.com/)**
 - **[Admin-Voyager](https://voyager-docs.devdojo.com/getting-started/installation)**
 
 ## Contributing
@@ -62,3 +62,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Instalação 
+
+Realizei esse projeto em PHP LARAVEL, com auxilio do VOYAGER, um 'admin' que auxilia no controle de usuários, pagamentos, cidades... Dados num geral. Ele tem contato direto com nosso banco de dados e código, tem uma interface amigavel e é uma boa ferramenta de trabalho. O banco de dados usado é o Mysql/Apache. 
+
